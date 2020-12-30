@@ -1,0 +1,63 @@
+*{margin: 0px; padding: 0px;}
+
+a{text-decoration: none;}
+
+/* Body Section */
+
+body{
+   background-color: #007bff; 
+}
+
+/* form wrapper */
+
+.wrapper{
+ max-width: 350px;
+ padding: 30px;   
+ background-color: #f5f6fa;
+ border-radius: 10px;
+ -webkit-box-shadow: 5px 5px 8px 19px rgba(223,237,250,0.33); 
+ box-shadow: 5px 5px 8px 19px rgba(223,237,250,0.33);
+ margin: auto;
+ margin-top: 200px;
+}
+
+
+/* form input */
+
+form input[type="email"],input[type="password"]{
+   width: 100%; 
+   padding: 10px 7px;
+   box-sizing: border-box;
+   margin-bottom: 10px;
+   border-radius: 5px;
+   border: none;
+}
+
+form input[type="checkbox"]{
+   margin-top: 5px; 
+   padding: 5px;
+   margin-bottom: 10px;
+}
+
+form input[type="submit"]{
+ width: 100%;
+ padding: 7px 7px;
+ box-sizing: border-box;  
+ margin-top: 10px; 
+ background-color: #ff4757;
+ border: none;
+ border-radius: 5px;
+ color: #fff;
+ cursor: pointer;
+}
+
+form input[type="submit"]:hover{
+    transition: 1s;
+    background-color: #44bd32;
+    color: #fff;
+}
+
+form .rememberTitle{
+    color: #747d8c;
+}
+
